@@ -1,0 +1,11 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: 127.0.0.1
+      user: root
+      password: root
+      port: 3306
+      database: test
+      threads: 1
